@@ -1,5 +1,5 @@
 # Lowbit
-An application that allows you to stream music from youtube.com to mobile devices/computers.
+It is a web application that creates a website that allows streaming music from youtube.com to mobile devices/computers.
 
 ### Instalation :
 ```
@@ -19,5 +19,5 @@ python3 manage.py runserver
 - djangorestframework
 
 
-The application requires placing a server that allows you to stream music using ffmpeg
+### The application requires placing a server that allows you to stream music using ffmpeg
 https://github.com/codealchemist/youtube-audio-server
