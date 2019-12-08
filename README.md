@@ -1,2 +1,23 @@
 # Lowbit
 An application that allows you to stream music from youtube.com to mobile devices/computers.
+
+### Instalation :
+```
+git clone https://github.com/Kamwebdev/Lowbit
+cd Lowbit
+python3 -m venv myvenv
+source myvenv/bin/activate
+pip install -r requirements.txt
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py runserver
+```
+
+### Application requirements  :
+- django-cors-headers
+- django
+- djangorestframework
+
+
+The application requires placing a server that allows you to stream music using ffmpeg
+https://github.com/codealchemist/youtube-audio-server
